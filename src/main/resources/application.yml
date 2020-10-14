@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: demo
+
+redis:
+  host: localhost
+  port: ${demo.redis.port:6379}
